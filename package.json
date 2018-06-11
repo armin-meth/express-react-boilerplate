@@ -2,7 +2,7 @@
   "name": "express-react-boilerplate",
   "version": "1.0.0",
   "description": "Express (API + static) + React boilerplate, using Webpack",
-  "main": "server",
+  "main": "server/server.js",
   "scripts": {
     "compile-server": "node_modules/.bin/babel dist --presets env --out-dir server",
     "compile-client": "node_modules/.bin/webpack",
